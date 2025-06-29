@@ -3,6 +3,8 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
+    "build": "next build",
+    "start": "next start",
     "expo-start": "expo start",
     "expo-android": "expo start --android",
     "expo-ios": "expo start --ios",
