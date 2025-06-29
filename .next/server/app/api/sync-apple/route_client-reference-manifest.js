@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/sync-apple/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"/Users/user/nao-health-sync/":[],"/Users/user/nao-health-sync/app/api/sync-apple/route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}}

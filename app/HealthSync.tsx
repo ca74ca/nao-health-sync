@@ -2,7 +2,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect } from 'react';
 import { Alert } from 'react-native';
 import AppleHealthKit, { HealthKitPermissions } from 'react-native-health';
-import { syncAppleHealthToBackend } from './utils/sync'; // Adjust as needed
+// If you moved it to app/
+import { syncAppleHealthToBackend } from './sync'; // now it's local
 
 const permissions: HealthKitPermissions = {
   permissions: {
