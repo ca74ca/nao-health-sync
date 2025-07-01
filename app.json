@@ -5,17 +5,11 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#000000"
-    },
+    "entryPoint": "./App.tsx",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.tito.naohealthsync",
       "supportsTablet": true
@@ -23,8 +17,11 @@
     "android": {
       "package": "com.tito.naohealthsync"
     },
-    "plugins": [
-      "react-native-health"
-    ]
+    "plugins": ["react-native-health"],
+    "extra": {
+      "eas": {
+        "projectId": "86fb2e93-e2b3-4a12-9c2b-a64e404bbe6e"
+      }
+    }
   }
 }

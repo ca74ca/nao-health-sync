@@ -14,3 +14,12 @@ client = new MongoClient(uri, options);
 clientPromise = client.connect();
 
 export default clientPromise;
+export async function connectDB() {
+  try {
+    const db = await clientPromise;
+    return db.db();
+  } catch (err) {
+    console.error("❌ Failed to connect to MongoDB", err);
+    throw err;
+  }
+}
